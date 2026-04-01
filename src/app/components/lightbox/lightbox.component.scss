@@ -1,0 +1,222 @@
+.lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: clamp(1rem, 4vw, 2.5rem);
+  background: rgba(2, 2, 2, 0.94);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition:
+    opacity 0.5s cubic-bezier(0.22, 1, 0.36, 1),
+    visibility 0.5s;
+
+  &--open {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+  }
+
+  &__stage {
+    max-width: min(96vw, 1400px);
+    max-height: min(88vh, 1200px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+
+    &--zoomed {
+      cursor: grab;
+      touch-action: none;
+    }
+
+    &--panning {
+      cursor: grabbing;
+    }
+  }
+
+  &__img {
+    display: block;
+    max-width: 100%;
+    max-height: min(88vh, 1200px);
+    width: auto;
+    height: auto;
+    object-fit: contain;
+    opacity: 0;
+    --zoom: 1;
+    --pan-x: 0px;
+    --pan-y: 0px;
+    transform: translate(var(--pan-x), var(--pan-y)) scale(calc(0.985 * var(--zoom)));
+    will-change: transform;
+    transition:
+      opacity 0.55s cubic-bezier(0.22, 1, 0.36, 1),
+      transform 0.65s cubic-bezier(0.22, 1, 0.36, 1);
+
+    &--ready {
+      opacity: 1;
+      transform: translate(var(--pan-x), var(--pan-y)) scale(var(--zoom));
+    }
+
+    &--zoomed {
+      cursor: zoom-out;
+    }
+  }
+
+  &__zoom {
+    position: absolute;
+    right: clamp(0.85rem, 3vw, 1.5rem);
+    bottom: clamp(0.85rem, 3vw, 1.5rem);
+    display: inline-flex;
+    align-items: center;
+    gap: 0.2rem;
+    z-index: 2;
+    touch-action: manipulation;
+  }
+
+  &__zoom-btn {
+    min-width: 2.1rem;
+    height: 1.9rem;
+    border: 1px solid rgba(234, 234, 234, 0.2);
+    border-radius: 999px;
+    background: rgba(8, 8, 8, 0.55);
+    color: rgba(234, 234, 234, 0.86);
+    font: inherit;
+    font-size: 0.7rem;
+    letter-spacing: 0.08em;
+    padding: 0 0.55rem;
+    cursor: pointer;
+    transition: border-color 0.2s ease;
+    touch-action: manipulation;
+    -webkit-user-select: none;
+    user-select: none;
+
+    &:hover,
+    &:focus-visible {
+      border-color: rgba(234, 234, 234, 0.45);
+      outline: none;
+    }
+
+    &:disabled {
+      opacity: 0.4;
+      cursor: default;
+    }
+  }
+
+  &__close {
+    position: absolute;
+    top: clamp(0.85rem, 3vw, 1.5rem);
+    right: clamp(0.85rem, 3vw, 1.5rem);
+    width: 2.5rem;
+    height: 2.5rem;
+    border: none;
+    padding: 0;
+    margin: 0;
+    background: transparent;
+    cursor: pointer;
+    opacity: 0.22;
+    transition: opacity 0.35s ease;
+    z-index: 2;
+
+    &:hover,
+    &:focus-visible {
+      opacity: 0.55;
+    }
+
+    &:focus-visible {
+      outline: 1px solid rgba(234, 234, 234, 0.35);
+      outline-offset: 4px;
+    }
+  }
+
+  &__close-mark {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: relative;
+
+    &::before,
+    &::after {
+      content: '';
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 1px;
+      height: 1.1rem;
+      background: var(--color-text);
+      transform-origin: center;
+    }
+
+    &::before {
+      transform: translate(-50%, -50%) rotate(45deg);
+    }
+
+    &::after {
+      transform: translate(-50%, -50%) rotate(-45deg);
+    }
+  }
+
+  &__nav {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: min(22vw, 9rem);
+    border: none;
+    padding: 0;
+    background: transparent;
+    cursor: pointer;
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 0.4s ease;
+
+    &:hover,
+    &:focus-visible {
+      opacity: 1;
+    }
+
+    &:focus-visible {
+      outline: none;
+    }
+
+    &--prev {
+      left: 0;
+    }
+
+    &--next {
+      right: 0;
+    }
+  }
+
+  &__chev {
+    display: block;
+    width: 0.55rem;
+    height: 0.55rem;
+    margin: 0 auto;
+    border-left: 1px solid rgba(234, 234, 234, 0.45);
+    border-bottom: 1px solid rgba(234, 234, 234, 0.45);
+  }
+
+  &__nav--prev .lightbox__chev {
+    transform: rotate(45deg);
+    margin-left: 40%;
+  }
+
+  &__nav--next .lightbox__chev {
+    transform: rotate(-135deg);
+    margin-right: 40%;
+  }
+}
+
+@media (hover: none) {
+  .lightbox__nav {
+    opacity: 0.14;
+  }
+
+  .lightbox__close {
+    opacity: 0.35;
+  }
+}

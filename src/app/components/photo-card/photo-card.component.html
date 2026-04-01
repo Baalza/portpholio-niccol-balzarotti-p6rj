@@ -1,0 +1,44 @@
+<button
+  type="button"
+  class="photo-card"
+  [class.photo-card--info-visible]="infoVisible()"
+  appRevealOnScroll
+  [appRevealDelay]="staggerMs()"
+  (click)="onCardClick($event)"
+  [attr.aria-label]="'Open photograph: ' + photo().alt"
+>
+  <span class="photo-card__inner">
+    <span class="photo-card__media">
+      <img
+        class="photo-card__img"
+        [src]="photo().src"
+        [alt]="photo().alt"
+        loading="lazy"
+        decoding="async"
+        sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+      />
+      <span class="photo-card__overlay" aria-hidden="true">
+        <span class="photo-card__meta">
+          @if (photo().iso) {
+            <span class="photo-card__line">ISO {{ photo().iso }}</span>
+          }
+          @if (photo().aperture) {
+            <span class="photo-card__line">{{ photo().aperture }}</span>
+          }
+          @if (photo().shutterSpeed) {
+            <span class="photo-card__line">{{ photo().shutterSpeed }}</span>
+          }
+          @if (photo().focalLength) {
+            <span class="photo-card__line">{{ photo().focalLength }}</span>
+          }
+          @if (photo().lensName) {
+            <span class="photo-card__line photo-card__line--lens">{{ photo().lensName }}</span>
+          }
+          @if (photo().cameraModel) {
+            <span class="photo-card__line">{{ photo().cameraModel }}</span>
+          }
+        </span>
+      </span>
+    </span>
+  </span>
+</button>

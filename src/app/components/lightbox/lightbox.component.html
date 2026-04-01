@@ -1,0 +1,99 @@
+<div
+  class="lightbox"
+  [class.lightbox--open]="lightbox.isOpen()"
+  role="dialog"
+  aria-modal="true"
+  [attr.aria-hidden]="!lightbox.isOpen()"
+  [attr.aria-label]="lightbox.current()?.alt ?? 'Photograph'"
+  (click)="onBackdrop($event)"
+>
+  @if (lightbox.isOpen() && lightbox.current(); as photo) {
+    <button
+      type="button"
+      class="lightbox__close"
+      (click)="lightbox.close(); $event.stopPropagation()"
+      aria-label="Close"
+    >
+      <span class="lightbox__close-mark" aria-hidden="true"></span>
+    </button>
+
+    <div class="lightbox__zoom" (click)="stopNavClick($event)" (dblclick)="preventControlDoubleTap($event)">
+      <button
+        type="button"
+        class="lightbox__zoom-btn"
+        (click)="zoomOut()"
+        (dblclick)="preventControlDoubleTap($event)"
+        [disabled]="zoom() <= 1"
+        aria-label="Zoom out"
+      >
+        -
+      </button>
+      <button
+        type="button"
+        class="lightbox__zoom-btn"
+        (click)="resetZoom()"
+        (dblclick)="preventControlDoubleTap($event)"
+        [disabled]="zoom() === 1"
+        aria-label="Reset zoom"
+      >
+        {{ (zoom() * 100).toFixed(0) }}%
+      </button>
+      <button
+        type="button"
+        class="lightbox__zoom-btn"
+        (click)="zoomIn()"
+        (dblclick)="preventControlDoubleTap($event)"
+        [disabled]="zoom() >= 3"
+        aria-label="Zoom in"
+      >
+        +
+      </button>
+    </div>
+
+    <button
+      type="button"
+      class="lightbox__nav lightbox__nav--prev"
+      (click)="lightbox.prev(); stopNavClick($event)"
+      aria-label="Previous photograph"
+    >
+      <span class="lightbox__chev" aria-hidden="true"></span>
+    </button>
+
+    <button
+      type="button"
+      class="lightbox__nav lightbox__nav--next"
+      (click)="lightbox.next(); stopNavClick($event)"
+      aria-label="Next photograph"
+    >
+      <span class="lightbox__chev" aria-hidden="true"></span>
+    </button>
+
+    <div
+      #stage
+      class="lightbox__stage"
+      [class.lightbox__stage--zoomed]="zoom() > 1"
+      [class.lightbox__stage--panning]="isPanning()"
+      (click)="stopNavClick($event)"
+      (wheel)="onWheel($event)"
+      (pointerdown)="onPanStart($event)"
+      (pointermove)="onPanMove($event)"
+      (pointerup)="onPanEnd($event)"
+      (pointercancel)="onPanEnd($event)"
+      (pointerleave)="onPanEnd($event)"
+    >
+      <img
+        #img
+        class="lightbox__img"
+        [class.lightbox__img--ready]="imgReady()"
+        [class.lightbox__img--zoomed]="zoom() > 1"
+        [src]="src()"
+        [alt]="photo.alt"
+        [style.--zoom]="zoom()"
+        [style.--pan-x]="panX() + 'px'"
+        [style.--pan-y]="panY() + 'px'"
+        decoding="async"
+        (load)="onImgLoad()"
+      />
+    </div>
+  }
+</div>

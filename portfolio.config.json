@@ -1,0 +1,27 @@
+{
+  "meta": {
+    "configVersion": 1,
+    "updatedAt": "2026-04-01T19:04:57.148Z"
+  },
+  "profile": {
+    "name": "Niccolò Balzarotti",
+    "age": "27",
+    "bio": "A simple software developer who has just discovered the world of photography, still exploring and finding his own path.",
+    "photographyExperience": "1 year",
+    "specializations": [
+      "Street",
+      "Travel",
+      "Architecture"
+    ],
+    "profileImagePath": "assets/portfolio/profile.webp",
+    "heroImagePath": "assets/portfolio/hero.webp",
+    "social": {
+      "website": "https://baalza.github.io/Balzarotti-Niccolo/",
+      "instagram": "",
+      "twitter": "",
+      "behance": "",
+      "linkedin": ""
+    }
+  },
+  "sections": []
+}

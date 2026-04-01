@@ -1,0 +1,240 @@
+.profile {
+  position: relative;
+  overflow: hidden;
+  padding: clamp(2.5rem, 8vw, 4rem) clamp(1.25rem, 5vw, 3rem) clamp(3rem, 10vh, 5rem);
+
+  &__bg {
+    position: absolute;
+    inset: 0;
+    background-size: cover;
+    background-position: center 35%;
+    background-repeat: no-repeat;
+    transform: scale(1.02);
+  }
+
+  &__scrim {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+      105deg,
+      rgba(0, 0, 0, 0.35) 0%,
+      rgba(0, 0, 0, 0.62) 55%,
+      rgba(0, 0, 0, 0.78) 100%
+    );
+  }
+
+  &__inner {
+    position: relative;
+    z-index: 1;
+    max-width: 72rem;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: minmax(280px, 340px) minmax(0, 1fr);
+    gap: clamp(2rem, 5vw, 4rem);
+    align-items: end;
+  }
+
+  &--empty {
+    background: rgba(10, 10, 10, 0.72);
+  }
+
+  &__empty-text {
+    margin: 0 auto;
+    padding: 2.25rem 0 1.2rem;
+    font-size: 0.82rem;
+    letter-spacing: 0.08em;
+    color: rgba(234, 234, 234, 0.62);
+    text-transform: uppercase;
+  }
+
+  @media (max-width: 900px) {
+    &__inner {
+      grid-template-columns: 1fr;
+    }
+  }
+}
+
+.profile-card {
+  background: #f6f6f6;
+  color: #0a0a0a;
+  box-shadow:
+    0 24px 60px rgba(0, 0, 0, 0.45),
+    0 1px 0 rgba(255, 255, 255, 0.06) inset;
+  border-radius: 2px;
+  overflow: hidden;
+
+  &__ribbon {
+    padding: 0.65rem 1rem;
+    font-size: 0.65rem;
+    font-weight: 800;
+    letter-spacing: 0.28em;
+    text-transform: uppercase;
+    background: #fff;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+  }
+
+  /* Square white frame: outer box is 1:1; padding is the mat around the square crop. */
+  &__photo {
+    box-sizing: border-box;
+    display: grid;
+    align-content: stretch;
+    justify-content: stretch;
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    background: #fff;
+    padding: clamp(0.85rem, 2.4vw, 1.5rem);
+    overflow: hidden;
+
+    img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      min-height: 0;
+      object-fit: cover;
+      object-position: center center;
+    }
+  }
+
+  &__footer {
+    padding: 0rem 1.25rem 1.5rem;
+    background: #fff;
+  }
+
+  &__name {
+    margin: 0 0 0.75rem;
+    font-size: clamp(1.35rem, 2.2vw, 1.75rem);
+    font-weight: 800;
+    letter-spacing: 0.06em;
+    line-height: 1.1;
+    text-transform: uppercase;
+    font-stretch: condensed;
+  }
+
+  &__rule {
+    height: 1px;
+    background: rgba(0, 0, 0, 0.35);
+    margin-bottom: 0.85rem;
+  }
+
+  &__social {
+    margin: 0 0 0.2rem;
+    font-size: 0.65rem;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    line-height: 1.55;
+    color: rgba(10, 10, 10, 0.62);
+  }
+
+  &__social-list {
+    display: grid;
+    gap: 0.1rem;
+  }
+
+  &__social-name {
+    font-weight: 700;
+    margin-right: 0.2rem;
+  }
+
+  &__social-brand--website {
+    color: #005dff;
+  }
+
+  &__social-brand--instagram {
+    color: #e1306c;
+  }
+
+  &__social-brand--twitter {
+    color: #1d9bf0;
+  }
+
+  &__social-brand--x {
+    color: #111111;
+  }
+
+  &__social-brand--behance {
+    color: #1769ff;
+  }
+
+  &__social-brand--linkedin {
+    color: #0a66c2;
+  }
+
+  &__social-link-name {
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: border-color 180ms ease;
+
+    &:hover,
+    &:focus-visible {
+      border-bottom-color: currentColor;
+    }
+  }
+
+  &__social-sep {
+    color: rgba(10, 10, 10, 0.52);
+  }
+}
+
+.profile-about {
+  color: #f3f3f3;
+  text-align: justify;
+
+  &__title {
+    margin: 0 0 clamp(1.25rem, 3vw, 2rem);
+    font-size: clamp(2.2rem, 5.5vw, 3.75rem);
+    font-weight: 800;
+    letter-spacing: 0.02em;
+    line-height: 0.95;
+    text-transform: uppercase;
+    font-stretch: condensed;
+  }
+
+  &__meta {
+    margin-bottom: clamp(1.25rem, 3vw, 2rem);
+  }
+
+  &__meta-line {
+    margin: 0 0 0.35rem;
+    font-size: clamp(0.72rem, 1.5vw, 0.9rem);
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    line-height: 1.55;
+    text-transform: uppercase;
+
+    &--spec {
+      font-weight: 600;
+      text-transform: none;
+      letter-spacing: 0.01em;
+    }
+  }
+
+  &__label {
+    font-weight: 800;
+    letter-spacing: 0.06em;
+    margin-right: 0.35rem;
+  }
+
+  &__sep {
+    display: inline-block;
+    width: 1px;
+    height: 0.85em;
+    margin: 0 0.75rem;
+    background: rgba(255, 255, 255, 0.35);
+    vertical-align: middle;
+  }
+
+  &__bio {
+    p {
+      margin: 0 0 1rem;
+      font-size: clamp(0.8rem, 1.35vw, 0.95rem);
+      font-weight: 400;
+      line-height: 1.75;
+      color: rgba(243, 243, 243, 0.78);
+      max-width: 44rem;
+    }
+
+    p:last-child {
+      margin-bottom: 0;
+    }
+  }
+}

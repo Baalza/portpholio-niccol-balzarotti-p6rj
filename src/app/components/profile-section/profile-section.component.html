@@ -1,0 +1,100 @@
+@if (profile(); as p) {
+  <section class="profile" aria-labelledby="profile-heading">
+    <div
+      class="profile__bg"
+      aria-hidden="true"
+      [style.background-image]="'url(' + (p.heroImagePath ?? p.backgroundImagePath ?? '') + ')'"
+    ></div>
+    <div class="profile__scrim" aria-hidden="true"></div>
+
+    <div class="profile__inner">
+      <aside class="profile-card">
+        <div class="profile-card__photo">
+          <img [src]="p.profileImagePath" [alt]="p.name" width="320" height="320" loading="eager"
+            decoding="async" sizes="(max-width: 900px) min(100vw - 3rem, 360px), 320px" />
+        </div>
+        <div class="profile-card__footer">
+          <h2 class="profile-card__name">{{ p.name }}</h2>
+          <div class="profile-card__rule" role="presentation"></div>
+          @if (socialItems().length) {
+            <div class="profile-card__social-list">
+              @for (item of socialItems(); track socialTrackBy($index, item)) {
+                <p class="profile-card__social">
+                  @if (item.href) {
+                    <a
+                      class="profile-card__social-name profile-card__social-link-name"
+                      [class]="item.brandClass"
+                      [href]="item.href"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {{ item.label }}
+                    </a>
+                  } @else {
+                    <span class="profile-card__social-name" [class]="item.brandClass">
+                      {{ item.label }}:
+                    </span>
+                    <span>{{ item.value }}</span>
+                  }
+                </p>
+              }
+            </div>
+          } @else if (p.socialLine || p.socialWebsite) {
+            <p class="profile-card__social">
+              @if (socialWebsiteHref(p.socialWebsite)) {
+                <a
+                  class="profile-card__social-name profile-card__social-brand--website profile-card__social-link-name"
+                  [href]="socialWebsiteHref(p.socialWebsite)"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Website
+                </a>
+                @if (p.socialLine) {
+                  <span class="profile-card__social-sep"> · </span>
+                }
+              } @else if (p.socialWebsite) {
+                <span class="profile-card__social-name profile-card__social-brand--website">Website:</span>
+                <span>{{ p.socialWebsite }}</span>
+                @if (p.socialLine) {
+                  <span class="profile-card__social-sep"> · </span>
+                }
+              }
+              {{ p.socialLine }}
+            </p>
+          }
+        </div>
+      </aside>
+
+      <div class="profile-about">
+        <h2 class="profile-about__title" id="profile-heading">Who i am</h2>
+
+        <div class="profile-about__meta">
+          <p class="profile-about__meta-line">
+            <span class="profile-about__label">Age:</span>
+            {{ p.age }}
+            <span class="profile-about__sep" aria-hidden="true"></span>
+            <span class="profile-about__label">Experience:</span>
+            {{ p.experience }}
+          </p>
+          <p class="profile-about__meta-line profile-about__meta-line--spec">
+            <span class="profile-about__label">Specialization:</span>
+            {{ p.specializations.join(' · ') }}
+          </p>
+        </div>
+
+        <div class="profile-about__bio">
+          @for (line of bioLines(); track $index) {
+            <p>{{ line }}</p>
+          }
+        </div>
+      </div>
+    </div>
+  </section>
+} @else {
+  <section class="profile profile--empty" aria-label="Profile">
+    <div class="profile__inner">
+      <p class="profile__empty-text">Profile content unavailable.</p>
+    </div>
+  </section>
+}

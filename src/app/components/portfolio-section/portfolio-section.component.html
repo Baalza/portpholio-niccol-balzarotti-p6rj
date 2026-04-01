@@ -1,0 +1,65 @@
+<section
+  class="collection"
+  [attr.aria-labelledby]="'collection-' + category().id"
+>
+  <header class="collection__head" appRevealOnScroll>
+    <div class="collection__head-row">
+      <h2 class="collection__title" [id]="'collection-' + category().id">
+        {{ category().title }}
+      </h2>
+      <button
+        type="button"
+        class="collection__toggle"
+        [attr.aria-label]="isSectionOpen() ? 'Collapse section' : 'Expand section'"
+        [attr.aria-expanded]="isSectionOpen()"
+        (click)="toggleSection()"
+      >
+        <span
+          class="collection__chevron"
+          [class.collection__chevron--open]="isSectionOpen()"
+          aria-hidden="true"
+        ></span>
+      </button>
+    </div>
+    @if (category().subtitle) {
+      <p class="collection__subtitle">{{ category().subtitle }}</p>
+    }
+  </header>
+
+  @if (isSectionOpen() && hasSubcategories()) {
+    @for (s of category().subcategories; track s.id) {
+      <div class="collection__sub">
+        <div class="collection__sub-row">
+          <h3 class="collection__sub-title" [id]="'subcollection-' + category().id + '-' + s.id">
+            {{ s.title }}
+          </h3>
+          <button
+            type="button"
+            class="collection__toggle collection__toggle--sub"
+            [attr.aria-label]="isSubOpen(s.id) ? 'Collapse subsection' : 'Expand subsection'"
+            [attr.aria-expanded]="isSubOpen(s.id)"
+            (click)="toggleSub(s.id)"
+          >
+            <span
+              class="collection__chevron"
+              [class.collection__chevron--open]="isSubOpen(s.id)"
+              aria-hidden="true"
+            ></span>
+          </button>
+        </div>
+        @if (s.subtitle) {
+          <p class="collection__sub-subtitle">{{ s.subtitle }}</p>
+        }
+        @if (isSubOpen(s.id)) {
+          <div class="collection__grid">
+            <app-photo-grid [mode]="horizontal() ? 'rail' : 'grid'" [photos]="s.photos" />
+          </div>
+        }
+      </div>
+    }
+  } @else if (isSectionOpen()) {
+    <div class="collection__grid">
+      <app-photo-grid [mode]="horizontal() ? 'rail' : 'grid'" [photos]="category().photos" />
+    </div>
+  }
+</section>

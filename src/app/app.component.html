@@ -1,0 +1,134 @@
+<main class="shell" id="page-top">
+  <section class="portfolio-head">
+    <h2 class="portfolio-head__title">portPHolio</h2>
+  </section>
+
+  <app-profile-section />
+
+  <section class="actions-wrap" aria-label="Portfolio actions">
+    <div class="view-toggle" role="tablist" aria-label="View actions">
+      <button
+        type="button"
+        class="view-toggle__btn"
+        [class.view-toggle__btn--active]="activeAction === 'rails'"
+        [attr.aria-selected]="activeAction === 'rails'"
+        role="tab"
+        title="Horizontal action"
+        (click)="setAction('rails')"
+      >
+        <svg
+          class="view-toggle__svg"
+          viewBox="0 0 20 20"
+          width="20"
+          height="20"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+          aria-hidden="true"
+        >
+          <line x1="3" y1="5.5" x2="17" y2="5.5" stroke="currentColor" stroke-width="1.15" stroke-linecap="round" />
+          <line x1="3" y1="10" x2="17" y2="10" stroke="currentColor" stroke-width="1.15" stroke-linecap="round" />
+          <line x1="3" y1="14.5" x2="17" y2="14.5" stroke="currentColor" stroke-width="1.15" stroke-linecap="round" />
+        </svg>
+        <span class="sr-only">Horizontal action</span>
+      </button>
+      <button
+        type="button"
+        class="view-toggle__btn"
+        [class.view-toggle__btn--active]="activeAction === 'grid'"
+        [attr.aria-selected]="activeAction === 'grid'"
+        role="tab"
+        title="Grid action"
+        (click)="setAction('grid')"
+      >
+        <svg
+          class="view-toggle__svg"
+          viewBox="0 0 20 20"
+          width="20"
+          height="20"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+          aria-hidden="true"
+        >
+          <rect x="2.5" y="2.5" width="6" height="6" rx="0.75" stroke="currentColor" stroke-width="1.15" />
+          <rect x="11.5" y="2.5" width="6" height="6" rx="0.75" stroke="currentColor" stroke-width="1.15" />
+          <rect x="2.5" y="11.5" width="6" height="6" rx="0.75" stroke="currentColor" stroke-width="1.15" />
+          <rect x="11.5" y="11.5" width="6" height="6" rx="0.75" stroke="currentColor" stroke-width="1.15" />
+        </svg>
+        <span class="sr-only">Grid action</span>
+      </button>
+    </div>
+
+    <span id="section-menu-sentinel" class="section-menu__sentinel" aria-hidden="true"></span>
+
+    <div
+      id="section-menu-anchor"
+      class="section-menu"
+      [class.section-menu--sticky]="menuSticky()"
+    >
+      <button
+        type="button"
+        class="section-menu__trigger"
+        [attr.aria-expanded]="menuOpen()"
+        aria-haspopup="menu"
+        (click)="toggleMenu()"
+      >
+        <span>Menu</span>
+        <span class="section-menu__chevron" [class.section-menu__chevron--open]="menuOpen()" aria-hidden="true"></span>
+      </button>
+
+      @if (menuOpen()) {
+        <div class="section-menu__panel" role="menu" aria-label="Sections and subsections">
+          @for (item of navItems(); track item.id) {
+            <button
+              type="button"
+              class="section-menu__item"
+              [class.section-menu__item--sub]="item.isSub"
+              role="menuitem"
+              (click)="navigateTo(item.id)"
+            >
+              {{ item.label }}
+            </button>
+          }
+        </div>
+      }
+    </div>
+  </section>
+
+  @if (activeAction === 'grid') {
+    @if (allPhotos().length) {
+      <section class="all-photos">
+        <app-photo-grid [photos]="allPhotos()" />
+      </section>
+    } @else {
+      <section class="portfolio-empty" aria-label="No sections available">
+        <p class="portfolio-empty__text">No sections available yet.</p>
+      </section>
+    }
+  } @else {
+    @if (categories().length) {
+      @for (c of categories(); track c.id) {
+        <app-portfolio-section [category]="c" [horizontal]="true" />
+      }
+    } @else {
+      <section class="portfolio-empty" aria-label="No sections available">
+        <p class="portfolio-empty__text">No sections available yet.</p>
+      </section>
+    }
+  }
+</main>
+
+<footer class="site-footer" aria-label="Credits">
+  <p class="site-footer__text">
+    made by
+    <a
+      class="site-footer__link"
+      href="https://baalza.github.io/Balzarotti-Niccolo/"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      Niccolò Balzarotti
+    </a>
+  </p>
+</footer>
+
+<app-lightbox />

@@ -1,0 +1,33 @@
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 280px), 1fr));
+  gap: clamp(0.9rem, 2.2vw, 1.7rem);
+  align-items: start;
+
+  &__cell {
+    min-width: 0;
+  }
+
+  &--rail {
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 300px), 1fr));
+    grid-auto-flow: row;
+  }
+}
+
+@media (max-width: 767px) {
+  .photo-grid--rail {
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 280px), 1fr));
+  }
+
+  /* Global grid view only: 3 thumbnails per row on small screens */
+  .photo-grid:not(.photo-grid--rail) {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: clamp(0.35rem, 2vw, 0.55rem);
+
+    ::ng-deep app-photo-card .photo-card__inner {
+      height: auto;
+      aspect-ratio: 1 / 1;
+      max-height: min(34vw, 9rem);
+    }
+  }
+}
