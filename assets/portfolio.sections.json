@@ -1,0 +1,1264 @@
+{
+  "meta": {
+    "updatedAt": "2026-06-07T19:30:31.742Z",
+    "schemaVersion": 1
+  },
+  "sections": [
+    {
+      "id": "id_mngf1cko_giqymwh",
+      "name": "Architecture",
+      "caption": "Architecture photography explores the form, structure, and design of buildings and man-made spaces, highlighting geometry, light, and composition.",
+      "photos": [
+        {
+          "id": "id_mngf37gs_nbf3kf8",
+          "path": "assets/portfolio/sections/id_mngf1cko_giqymwh/id_mngf37gs_nbf3kf8.webp",
+          "metadata": {
+            "iso": 200,
+            "aperture": null,
+            "shutterSpeed": "1/3200s",
+            "focalLength": null,
+            "lens": null,
+            "camera": "Canon Canon EOS R100",
+            "dateTaken": "2026-03-21T15:35:57.000Z",
+            "width": 1707,
+            "height": 2560
+          }
+        },
+        {
+          "id": "id_mngf23hy_fubuz4s",
+          "path": "assets/portfolio/sections/id_mngf1cko_giqymwh/id_mngf23hy_fubuz4s.webp",
+          "metadata": {
+            "iso": 800,
+            "aperture": "f/6.3",
+            "shutterSpeed": "1/4000s",
+            "focalLength": "45mm",
+            "lens": "RF-S18-45mm F4.5-6.3 IS STM",
+            "camera": "Canon Canon EOS R100",
+            "dateTaken": "2026-03-21T11:21:54.000Z",
+            "width": 2560,
+            "height": 1707
+          }
+        },
+        {
+          "id": "id_mngf2d5y_yp6osp8",
+          "path": "assets/portfolio/sections/id_mngf1cko_giqymwh/id_mngf2d5y_yp6osp8.webp",
+          "metadata": {
+            "iso": 800,
+            "aperture": null,
+            "shutterSpeed": "1/4000s",
+            "focalLength": null,
+            "lens": null,
+            "camera": "Canon Canon EOS R100",
+            "dateTaken": "2026-03-21T11:25:58.000Z",
+            "width": 2560,
+            "height": 1831
+          }
+        },
+        {
+          "id": "id_mngf2dwu_myyftcb",
+          "path": "assets/portfolio/sections/id_mngf1cko_giqymwh/id_mngf2dwu_myyftcb.webp",
+          "metadata": {
+            "iso": 200,
+            "aperture": null,
+            "shutterSpeed": "1/4000s",
+            "focalLength": null,
+            "lens": null,
+            "camera": "Canon Canon EOS R100",
+            "dateTaken": "2026-03-21T11:46:28.000Z",
+            "width": 2560,
+            "height": 2051
+          }
+        },
+        {
+          "id": "id_mngfme5k_ngndzlo",
+          "path": "assets/portfolio/sections/id_mngf1cko_giqymwh/id_mngfme5k_ngndzlo.webp",
+          "metadata": {
+            "iso": 100,
+            "aperture": null,
+            "shutterSpeed": "1/250s",
+            "focalLength": null,
+            "lens": null,
+            "camera": "Canon Canon EOS R100",
+            "dateTaken": "2026-03-22T16:44:28.000Z",
+            "width": 1680,
+            "height": 2560
+          }
+        },
+        {
+          "id": "id_mngf32l7_hdny6si",
+          "path": "assets/portfolio/sections/id_mngf1cko_giqymwh/id_mngf32l7_hdny6si.webp",
+          "metadata": {
+            "iso": 200,
+            "aperture": null,
+            "shutterSpeed": "1/1000s",
+            "focalLength": null,
+            "lens": null,
+            "camera": "Canon Canon EOS R100",
+            "dateTaken": "2026-03-21T11:52:07.000Z",
+            "width": 1221,
+            "height": 2560
+          }
+        },
+        {
+          "id": "id_mngf34ns_d5b5765",
+          "path": "assets/portfolio/sections/id_mngf1cko_giqymwh/id_mngf34ns_d5b5765.webp",
+          "metadata": {
+            "iso": 20,
+            "aperture": "f/2.8",
+            "shutterSpeed": "1/900s",
+            "focalLength": "17mm",
+            "lens": "iPhone 17 Pro back triple camera 16.891mm f/2.8",
+            "camera": "Apple iPhone 17 Pro",
+            "dateTaken": "2026-03-21T13:15:08.000Z",
+            "width": 1440,
+            "height": 2560
+          }
+        },
+        {
+          "id": "id_mngf35ar_e63bkm9",
+          "path": "assets/portfolio/sections/id_mngf1cko_giqymwh/id_mngf35ar_e63bkm9.webp",
+          "metadata": {
+            "iso": 6400,
+            "aperture": "f/14",
+            "shutterSpeed": "1/4000s",
+            "focalLength": "45mm",
+            "lens": "RF-S18-45mm F4.5-6.3 IS STM",
+            "camera": "Canon Canon EOS R100",
+            "dateTaken": "2026-03-21T13:43:39.000Z",
+            "width": 1729,
+            "height": 2560
+          }
+        },
+        {
+          "id": "id_mngf361c_1hyvxeq",
+          "path": "assets/portfolio/sections/id_mngf1cko_giqymwh/id_mngf361c_1hyvxeq.webp",
+          "metadata": {
+            "iso": 200,
+            "aperture": "f/6.3",
+            "shutterSpeed": "1/500s",
+            "focalLength": "45mm",
+            "lens": "Canon RF-S18-45mm F4.5-6.3 IS STM",
+            "camera": "Canon Canon EOS R100",
+            "dateTaken": "2026-03-21T15:07:17.000Z",
+            "width": 2560,
+            "height": 1852
+          }
+        },
+        {
+          "id": "id_mngf36o9_hmvl16v",
+          "path": "assets/portfolio/sections/id_mngf1cko_giqymwh/id_mngf36o9_hmvl16v.webp",
+          "metadata": {
+            "iso": 200,
+            "aperture": "f/5.6",
+            "shutterSpeed": "1/1250s",
+            "focalLength": "34mm",
+            "lens": "RF-S18-45mm F4.5-6.3 IS STM",
+            "camera": "Canon Canon EOS R100",
+            "dateTaken": "2026-03-21T15:11:00.000Z",
+            "width": 1707,
+            "height": 2560
+          }
+        },
+        {
+          "id": "id_mngf384q_la2c1he",
+          "path": "assets/portfolio/sections/id_mngf1cko_giqymwh/id_mngf384q_la2c1he.webp",
+          "metadata": {
+            "iso": 200,
+            "aperture": null,
+            "shutterSpeed": "1/1600s",
+            "focalLength": null,
+            "lens": null,
+            "camera": "Canon Canon EOS R100",
+            "dateTaken": "2026-03-22T14:23:59.000Z",
+            "width": 2379,
+            "height": 2560
+          }
+        },
+        {
+          "id": "id_mngf38y5_389fz07",
+          "path": "assets/portfolio/sections/id_mngf1cko_giqymwh/id_mngf38y5_389fz07.webp",
+          "metadata": {
+            "iso": 200,
+            "aperture": null,
+            "shutterSpeed": "1/3200s",
+            "focalLength": null,
+            "lens": null,
+            "camera": "Canon Canon EOS R100",
+            "dateTaken": "2026-03-22T14:25:58.000Z",
+            "width": 1707,
+            "height": 2560
+          }
+        },
+        {
+          "id": "id_mngf39n2_gw16knw",
+          "path": "assets/portfolio/sections/id_mngf1cko_giqymwh/id_mngf39n2_gw16knw.webp",
+          "metadata": {
+            "iso": 200,
+            "aperture": null,
+            "shutterSpeed": "1/1600s",
+            "focalLength": null,
+            "lens": null,
+            "camera": "Canon Canon EOS R100",
+            "dateTaken": "2026-03-22T14:28:27.000Z",
+            "width": 1707,
+            "height": 2560
+          }
+        },
+        {
+          "id": "id_mngf3abz_iwvlfu4",
+          "path": "assets/portfolio/sections/id_mngf1cko_giqymwh/id_mngf3abz_iwvlfu4.webp",
+          "metadata": {
+            "iso": 200,
+            "aperture": null,
+            "shutterSpeed": "1/2500s",
+            "focalLength": null,
+            "lens": null,
+            "camera": "Canon Canon EOS R100",
+            "dateTaken": "2026-03-22T14:59:24.000Z",
+            "width": 1942,
+            "height": 2560
+          }
+        },
+        {
+          "id": "id_mngf3b39_zfkd4uv",
+          "path": "assets/portfolio/sections/id_mngf1cko_giqymwh/id_mngf3b39_zfkd4uv.webp",
+          "metadata": {
+            "iso": 6400,
+            "aperture": null,
+            "shutterSpeed": "1/250s",
+            "focalLength": null,
+            "lens": null,
+            "camera": "Canon Canon EOS R100",
+            "dateTaken": "2026-03-22T17:49:53.000Z",
+            "width": 2201,
+            "height": 2560
+          }
+        },
+        {
+          "id": "id_mngf3bx3_24fqf3y",
+          "path": "assets/portfolio/sections/id_mngf1cko_giqymwh/id_mngf3bx3_24fqf3y.webp",
+          "metadata": {
+            "iso": 200,
+            "aperture": "f/6.3",
+            "shutterSpeed": "1/1000s",
+            "focalLength": "45mm",
+            "lens": "RF-S18-45mm F4.5-6.3 IS STM",
+            "camera": "Canon Canon EOS R100",
+            "dateTaken": "2026-03-23T11:51:54.000Z",
+            "width": 1823,
+            "height": 2560
+          }
+        },
+        {
+          "id": "id_mngfaiwp_nu3bdcf",
+          "path": "assets/portfolio/sections/id_mngf1cko_giqymwh/id_mngfaiwp_nu3bdcf.webp",
+          "metadata": {
+            "iso": 200,
+            "aperture": "f/6.3",
+            "shutterSpeed": "1/200s",
+            "focalLength": "37mm",
+            "lens": "RF-S18-45mm F4.5-6.3 IS STM",
+            "camera": "Canon Canon EOS R100",
+            "dateTaken": "2026-03-29T07:52:55.000Z",
+            "width": 2560,
+            "height": 1773
+          }
+        },
+        {
+          "id": "id_mngfajlb_pwo5c2a",
+          "path": "assets/portfolio/sections/id_mngf1cko_giqymwh/id_mngfajlb_pwo5c2a.webp",
+          "metadata": {
+            "iso": 200,
+            "aperture": null,
+            "shutterSpeed": "1/640s",
+            "focalLength": null,
+            "lens": null,
+            "camera": "Canon Canon EOS R100",
+            "dateTaken": "2026-03-29T08:51:32.000Z",
+            "width": 2560,
+            "height": 2171
+          }
+        },
+        {
+          "id": "id_mngfakam_iubd89k",
+          "path": "assets/portfolio/sections/id_mngf1cko_giqymwh/id_mngfakam_iubd89k.webp",
+          "metadata": {
+            "iso": 200,
+            "aperture": null,
+            "shutterSpeed": "1/500s",
+            "focalLength": null,
+            "lens": null,
+            "camera": "Canon Canon EOS R100",
+            "dateTaken": "2026-03-29T09:19:01.000Z",
+            "width": 1707,
+            "height": 2560
+          }
+        },
+        {
+          "id": "id_mngfal05_3zhxkxp",
+          "path": "assets/portfolio/sections/id_mngf1cko_giqymwh/id_mngfal05_3zhxkxp.webp",
+          "metadata": {
+            "iso": 200,
+            "aperture": null,
+            "shutterSpeed": "1/640s",
+            "focalLength": null,
+            "lens": null,
+            "camera": "Canon Canon EOS R100",
+            "dateTaken": "2026-03-29T13:17:04.000Z",
+            "width": 1707,
+            "height": 2560
+          }
+        },
+        {
+          "id": "id_mngfbhbt_i4koi88",
+          "path": "assets/portfolio/sections/id_mngf1cko_giqymwh/id_mngfbhbt_i4koi88.webp",
+          "metadata": {
+            "iso": 400,
+            "aperture": "f/1.8",
+            "shutterSpeed": "1/50s",
+            "focalLength": "7mm",
+            "lens": "iPhone 16 Pro back triple camera 6,765mm f/1,78",
+            "camera": "Apple iPhone 16 Pro",
+            "dateTaken": "2025-11-24T17:30:17.000Z",
+            "width": 1920,
+            "height": 2560
+          }
+        },
+        {
+          "id": "id_mngfbi0s_gb1a2n8",
+          "path": "assets/portfolio/sections/id_mngf1cko_giqymwh/id_mngfbi0s_gb1a2n8.webp",
+          "metadata": {
+            "iso": 125,
+            "aperture": "f/1.8",
+            "shutterSpeed": "1/45s",
+            "focalLength": "7mm",
+            "lens": "iPhone 16 Pro back triple camera 6,765mm f/1,78",
+            "camera": "Apple iPhone 16 Pro",
+            "dateTaken": "2025-11-24T16:43:35.000Z",
+            "width": 1920,
+            "height": 2560
+          }
+        },
+        {
+          "id": "id_mngfbimv_mq3ehvf",
+          "path": "assets/portfolio/sections/id_mngf1cko_giqymwh/id_mngfbimv_mq3ehvf.webp",
+          "metadata": {
+            "iso": 160,
+            "aperture": "f/2.2",
+            "shutterSpeed": "1/30s",
+            "focalLength": "2mm",
+            "lens": "iPhone 16 Pro back triple camera 2,22mm f/2,2",
+            "camera": "Apple iPhone 16 Pro",
+            "dateTaken": "2025-11-24T16:40:15.000Z",
+            "width": 1920,
+            "height": 2560
+          }
+        },
+        {
+          "id": "id_mngfc6vm_xzilodh",
+          "path": "assets/portfolio/sections/id_mngf1cko_giqymwh/id_mngfc6vm_xzilodh.webp",
+          "metadata": {
+            "iso": 100,
+            "aperture": "f/1.8",
+            "shutterSpeed": "1/3800s",
+            "focalLength": "7mm",
+            "lens": "iPhone 16 Pro back triple camera 6.765mm f/1.78",
+            "camera": "Apple iPhone 16 Pro",
+            "dateTaken": "2024-11-16T14:45:25.000Z",
+            "width": 1920,
+            "height": 2560
+          }
+        },
+        {
+          "id": "id_mngfc7r8_66e367j",
+          "path": "assets/portfolio/sections/id_mngf1cko_giqymwh/id_mngfc7r8_66e367j.webp",
+          "metadata": {
+            "iso": 100,
+            "aperture": "f/1.8",
+            "shutterSpeed": "1/710s",
+            "focalLength": "7mm",
+            "lens": "iPhone 16 Pro back triple camera 6.765mm f/1.78",
+            "camera": "Apple iPhone 16 Pro",
+            "dateTaken": "2024-11-16T14:33:13.000Z",
+            "width": 1920,
+            "height": 2560
+          }
+        },
+        {
+          "id": "id_mngg45sj_ppl810r",
+          "path": "assets/portfolio/sections/id_mngf1cko_giqymwh/id_mngg45sj_ppl810r.webp",
+          "metadata": {
+            "iso": 100,
+            "aperture": null,
+            "shutterSpeed": "30s",
+            "focalLength": null,
+            "lens": null,
+            "camera": "Canon Canon EOS R100",
+            "dateTaken": "2026-03-22T18:43:12.000Z",
+            "width": 1440,
+            "height": 2560
+          }
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "id": "id_mngffylj_uzl68bj",
+      "name": "Street",
+      "caption": "Street photography captures everyday life in public spaces, focusing on candid moments, human presence, and the stories unfolding in real time.",
+      "photos": [
+        {
+          "id": "id_mngfh90j_pxk0vri",
+          "path": "assets/portfolio/sections/id_mngffylj_uzl68bj/id_mngfh90j_pxk0vri.webp",
+          "metadata": {
+            "iso": 250,
+            "aperture": "f/7.1",
+            "shutterSpeed": "1/80s",
+            "focalLength": "42mm",
+            "lens": "RF-S18-45mm F4.5-6.3 IS STM",
+            "camera": "Canon Canon EOS R100",
+            "dateTaken": "2025-11-23T08:40:56.000Z",
+            "width": 1707,
+            "height": 2560
+          }
+        },
+        {
+          "id": "id_mngfh9qn_hv5m3qv",
+          "path": "assets/portfolio/sections/id_mngffylj_uzl68bj/id_mngfh9qn_hv5m3qv.webp",
+          "metadata": {
+            "iso": 100,
+            "aperture": "f/18",
+            "shutterSpeed": "1/200s",
+            "focalLength": "40mm",
+            "lens": "RF-S18-45mm F4.5-6.3 IS STM",
+            "camera": "Canon Canon EOS R100",
+            "dateTaken": "2025-11-23T08:35:06.000Z",
+            "width": 1707,
+            "height": 2560
+          }
+        },
+        {
+          "id": "id_mngfhacn_3cw0gxc",
+          "path": "assets/portfolio/sections/id_mngffylj_uzl68bj/id_mngfhacn_3cw0gxc.webp",
+          "metadata": {
+            "iso": 500,
+            "aperture": "f/18",
+            "shutterSpeed": "1/80s",
+            "focalLength": "34mm",
+            "lens": "RF-S18-45mm F4.5-6.3 IS STM",
+            "camera": "Canon Canon EOS R100",
+            "dateTaken": "2025-11-23T08:34:23.000Z",
+            "width": 1707,
+            "height": 2560
+          }
+        },
+        {
+          "id": "id_mngfhb1z_4v1z52m",
+          "path": "assets/portfolio/sections/id_mngffylj_uzl68bj/id_mngfhb1z_4v1z52m.webp",
+          "metadata": {
+            "iso": 3200,
+            "aperture": "f/14",
+            "shutterSpeed": "1/100s",
+            "focalLength": "45mm",
+            "lens": "RF-S18-45mm F4.5-6.3 IS STM",
+            "camera": "Canon Canon EOS R100",
+            "dateTaken": "2025-11-23T07:55:50.000Z",
+            "width": 1707,
+            "height": 2560
+          }
+        },
+        {
+          "id": "id_mngfho9e_97o33nh",
+          "path": "assets/portfolio/sections/id_mngffylj_uzl68bj/id_mngfho9e_97o33nh.webp",
+          "metadata": {
+            "iso": 200,
+            "aperture": null,
+            "shutterSpeed": "1/400s",
+            "focalLength": null,
+            "lens": null,
+            "camera": "Canon Canon EOS R100",
+            "dateTaken": "2026-03-21T12:54:27.000Z",
+            "width": 1739,
+            "height": 2560
+          }
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "id": "id_mngfjox1_4n7eprp",
+      "name": "Details",
+      "caption": "Details photography focuses on isolated elements, highlighting shapes, textures, and subtle compositions that often go unnoticed in everyday scenes.",
+      "photos": [
+        {
+          "id": "id_mngfkq8j_bvvoacn",
+          "path": "assets/portfolio/sections/id_mngfjox1_4n7eprp/id_mngfkq8j_bvvoacn.webp",
+          "metadata": {
+            "iso": 100,
+            "aperture": null,
+            "shutterSpeed": "1/125s",
+            "focalLength": null,
+            "lens": null,
+            "camera": "Canon Canon EOS R100",
+            "dateTaken": "2026-03-29T18:33:21.000Z",
+            "width": 1439,
+            "height": 1055
+          }
+        },
+        {
+          "id": "id_mngfof1k_y9mufuk",
+          "path": "assets/portfolio/sections/id_mngfjox1_4n7eprp/id_mngfof1k_y9mufuk.webp",
+          "metadata": {
+            "iso": 200,
+            "aperture": null,
+            "shutterSpeed": "1/320s",
+            "focalLength": null,
+            "lens": null,
+            "camera": "Canon Canon EOS R100",
+            "dateTaken": "2026-03-21T15:26:21.000Z",
+            "width": 1707,
+            "height": 2560
+          }
+        },
+        {
+          "id": "id_mngfofox_ex4osdc",
+          "path": "assets/portfolio/sections/id_mngfjox1_4n7eprp/id_mngfofox_ex4osdc.webp",
+          "metadata": {
+            "iso": 800,
+            "aperture": null,
+            "shutterSpeed": "1/125s",
+            "focalLength": null,
+            "lens": null,
+            "camera": "Canon Canon EOS R100",
+            "dateTaken": "2026-03-23T10:23:45.000Z",
+            "width": 1812,
+            "height": 2560
+          }
+        },
+        {
+          "id": "id_mngfogii_9ufl250",
+          "path": "assets/portfolio/sections/id_mngfjox1_4n7eprp/id_mngfogii_9ufl250.webp",
+          "metadata": {
+            "iso": 800,
+            "aperture": null,
+            "shutterSpeed": "1/1250s",
+            "focalLength": null,
+            "lens": null,
+            "camera": "Canon Canon EOS R100",
+            "dateTaken": "2026-03-23T10:25:27.000Z",
+            "width": 1707,
+            "height": 2560
+          }
+        },
+        {
+          "id": "id_mngfoh6h_wlbtg2p",
+          "path": "assets/portfolio/sections/id_mngfjox1_4n7eprp/id_mngfoh6h_wlbtg2p.webp",
+          "metadata": {
+            "iso": 800,
+            "aperture": "f/4.5",
+            "shutterSpeed": "1/100s",
+            "focalLength": "18mm",
+            "lens": "RF-S18-45mm F4.5-6.3 IS STM",
+            "camera": "Canon Canon EOS R100",
+            "dateTaken": "2026-03-23T10:29:31.000Z",
+            "width": 2560,
+            "height": 1707
+          }
+        },
+        {
+          "id": "id_mngfqzeg_r87pa59",
+          "path": "assets/portfolio/sections/id_mngfjox1_4n7eprp/id_mngfqzeg_r87pa59.webp",
+          "metadata": {
+            "iso": 640,
+            "aperture": "f/14",
+            "shutterSpeed": "1/80s",
+            "focalLength": "27mm",
+            "lens": "Canon RF-S18-45mm F4.5-6.3 IS STM",
+            "camera": "Canon Canon EOS R100",
+            "dateTaken": "2025-11-23T08:32:33.000Z",
+            "width": 2560,
+            "height": 1707
+          }
+        },
+        {
+          "id": "id_mngfr08z_mnem7hc",
+          "path": "assets/portfolio/sections/id_mngfjox1_4n7eprp/id_mngfr08z_mnem7hc.webp",
+          "metadata": {
+            "iso": 500,
+            "aperture": "f/6.3",
+            "shutterSpeed": "1/100s",
+            "focalLength": "45mm",
+            "lens": "RF-S18-45mm F4.5-6.3 IS STM",
+            "camera": "Canon Canon EOS R100",
+            "dateTaken": "2025-11-23T07:44:25.000Z",
+            "width": 1707,
+            "height": 2560
+          }
+        },
+        {
+          "id": "id_mngfrju4_ebx5qyw",
+          "path": "assets/portfolio/sections/id_mngfjox1_4n7eprp/id_mngfrju4_ebx5qyw.webp",
+          "metadata": {
+            "iso": 100,
+            "aperture": null,
+            "shutterSpeed": "1/160s",
+            "focalLength": null,
+            "lens": null,
+            "camera": "Canon Canon EOS R100",
+            "dateTaken": "2026-03-29T12:13:44.000Z",
+            "width": 1707,
+            "height": 2560
+          }
+        },
+        {
+          "id": "id_mngfrkkw_y7e2t6w",
+          "path": "assets/portfolio/sections/id_mngfjox1_4n7eprp/id_mngfrkkw_y7e2t6w.webp",
+          "metadata": {
+            "iso": 200,
+            "aperture": null,
+            "shutterSpeed": "1/3200s",
+            "focalLength": null,
+            "lens": null,
+            "camera": "Canon Canon EOS R100",
+            "dateTaken": "2026-03-29T13:10:31.000Z",
+            "width": 1707,
+            "height": 2560
+          }
+        },
+        {
+          "id": "id_mngfrl7p_09uyxir",
+          "path": "assets/portfolio/sections/id_mngfjox1_4n7eprp/id_mngfrl7p_09uyxir.webp",
+          "metadata": {
+            "iso": 200,
+            "aperture": null,
+            "shutterSpeed": "1/640s",
+            "focalLength": null,
+            "lens": null,
+            "camera": "Canon Canon EOS R100",
+            "dateTaken": "2026-03-29T13:14:27.000Z",
+            "width": 2560,
+            "height": 1707
+          }
+        },
+        {
+          "id": "id_mngfrly3_5pf91l8",
+          "path": "assets/portfolio/sections/id_mngfjox1_4n7eprp/id_mngfrly3_5pf91l8.webp",
+          "metadata": {
+            "iso": 200,
+            "aperture": null,
+            "shutterSpeed": "1/100s",
+            "focalLength": null,
+            "lens": null,
+            "camera": "Canon Canon EOS R100",
+            "dateTaken": "2026-03-29T13:20:59.000Z",
+            "width": 1707,
+            "height": 2560
+          }
+        },
+        {
+          "id": "id_mngfrmlv_mdfqo89",
+          "path": "assets/portfolio/sections/id_mngfjox1_4n7eprp/id_mngfrmlv_mdfqo89.webp",
+          "metadata": {
+            "iso": 200,
+            "aperture": null,
+            "shutterSpeed": "1/320s",
+            "focalLength": null,
+            "lens": null,
+            "camera": "Canon Canon EOS R100",
+            "dateTaken": "2026-03-29T13:38:56.000Z",
+            "width": 1707,
+            "height": 2560
+          }
+        },
+        {
+          "id": "id_mngfrn8s_8dlh5tl",
+          "path": "assets/portfolio/sections/id_mngfjox1_4n7eprp/id_mngfrn8s_8dlh5tl.webp",
+          "metadata": {
+            "iso": 200,
+            "aperture": null,
+            "shutterSpeed": "1/20s",
+            "focalLength": null,
+            "lens": null,
+            "camera": "Canon Canon EOS R100",
+            "dateTaken": "2026-03-29T13:49:55.000Z",
+            "width": 1707,
+            "height": 2560
+          }
+        },
+        {
+          "id": "id_mngfu2f8_clmcv9i",
+          "path": "assets/portfolio/sections/id_mngfjox1_4n7eprp/id_mngfu2f8_clmcv9i.webp",
+          "metadata": {
+            "iso": 200,
+            "aperture": "f/10",
+            "shutterSpeed": "1/60s",
+            "focalLength": "45mm",
+            "lens": "RF-S18-45mm F4.5-6.3 IS STM",
+            "camera": "Canon Canon EOS R100",
+            "dateTaken": "2026-03-29T08:02:21.000Z",
+            "width": 2560,
+            "height": 1707
+          }
+        },
+        {
+          "id": "id_mngfu33s_vle69gj",
+          "path": "assets/portfolio/sections/id_mngfjox1_4n7eprp/id_mngfu33s_vle69gj.webp",
+          "metadata": {
+            "iso": 200,
+            "aperture": null,
+            "shutterSpeed": "1/40s",
+            "focalLength": null,
+            "lens": null,
+            "camera": "Canon Canon EOS R100",
+            "dateTaken": "2026-03-29T09:14:47.000Z",
+            "width": 1707,
+            "height": 2560
+          }
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "id": "id_mngfuug5_g829up1",
+      "name": "Subject",
+      "caption": "Subject photography centers on a clear focal point, highlighting a specific element or scene as the main subject of the image.",
+      "photos": [
+        {
+          "id": "id_mngfvthd_4q2fpmr",
+          "path": "assets/portfolio/sections/id_mngfuug5_g829up1/id_mngfvthd_4q2fpmr.webp",
+          "metadata": {
+            "iso": 800,
+            "aperture": null,
+            "shutterSpeed": "1/3200s",
+            "focalLength": null,
+            "lens": null,
+            "camera": "Canon Canon EOS R100",
+            "dateTaken": "2026-03-21T11:11:24.000Z",
+            "width": 1707,
+            "height": 2560
+          }
+        },
+        {
+          "id": "id_mngfvu6w_dzx94k7",
+          "path": "assets/portfolio/sections/id_mngfuug5_g829up1/id_mngfvu6w_dzx94k7.webp",
+          "metadata": {
+            "iso": 800,
+            "aperture": "f/6.3",
+            "shutterSpeed": "1/4000s",
+            "focalLength": "45mm",
+            "lens": "RF-S18-45mm F4.5-6.3 IS STM",
+            "camera": "Canon Canon EOS R100",
+            "dateTaken": "2026-03-21T11:16:25.000Z",
+            "width": 2353,
+            "height": 2560
+          }
+        },
+        {
+          "id": "id_mngfwh6r_vh8wz0t",
+          "path": "assets/portfolio/sections/id_mngfuug5_g829up1/id_mngfwh6r_vh8wz0t.webp",
+          "metadata": {
+            "iso": 100,
+            "aperture": null,
+            "shutterSpeed": "1/4000s",
+            "focalLength": null,
+            "lens": null,
+            "camera": "Canon Canon EOS R100",
+            "dateTaken": "2026-03-29T12:54:43.000Z",
+            "width": 1707,
+            "height": 2560
+          }
+        },
+        {
+          "id": "id_mngfvvxk_o7ubdqf",
+          "path": "assets/portfolio/sections/id_mngfuug5_g829up1/id_mngfvvxk_o7ubdqf.webp",
+          "metadata": {
+            "iso": 200,
+            "aperture": null,
+            "shutterSpeed": "1/2500s",
+            "focalLength": null,
+            "lens": null,
+            "camera": "Canon Canon EOS R100",
+            "dateTaken": "2026-03-22T14:37:14.000Z",
+            "width": 1707,
+            "height": 2560
+          }
+        },
+        {
+          "id": "id_mngfwezn_ki445a2",
+          "path": "assets/portfolio/sections/id_mngfuug5_g829up1/id_mngfwezn_ki445a2.webp",
+          "metadata": {
+            "iso": 200,
+            "aperture": "f/8",
+            "shutterSpeed": "1/250s",
+            "focalLength": "45mm",
+            "lens": "RF-S18-45mm F4.5-6.3 IS STM",
+            "camera": "Canon Canon EOS R100",
+            "dateTaken": "2026-03-29T07:25:27.000Z",
+            "width": 2560,
+            "height": 1787
+          }
+        },
+        {
+          "id": "id_mngfwfsc_09kynj6",
+          "path": "assets/portfolio/sections/id_mngfuug5_g829up1/id_mngfwfsc_09kynj6.webp",
+          "metadata": {
+            "iso": 200,
+            "aperture": null,
+            "shutterSpeed": "1/125s",
+            "focalLength": null,
+            "lens": null,
+            "camera": "Canon Canon EOS R100",
+            "dateTaken": "2026-03-29T08:29:53.000Z",
+            "width": 1920,
+            "height": 2560
+          }
+        },
+        {
+          "id": "id_mngfwgm3_iei3m3o",
+          "path": "assets/portfolio/sections/id_mngfuug5_g829up1/id_mngfwgm3_iei3m3o.webp",
+          "metadata": {
+            "iso": 200,
+            "aperture": null,
+            "shutterSpeed": "1/320s",
+            "focalLength": null,
+            "lens": null,
+            "camera": "Canon Canon EOS R100",
+            "dateTaken": "2026-03-29T08:57:23.000Z",
+            "width": 2560,
+            "height": 1707
+          }
+        },
+        {
+          "id": "id_mniw8q5x_ft11953",
+          "path": "assets/portfolio/sections/id_mngfuug5_g829up1/id_mniw8q5x_ft11953.webp",
+          "metadata": {
+            "iso": 100,
+            "aperture": null,
+            "shutterSpeed": "1/80s",
+            "focalLength": null,
+            "lens": null,
+            "camera": "Canon Canon EOS R100",
+            "dateTaken": "2026-04-03T11:21:33.000Z",
+            "width": 2560,
+            "height": 1577
+          }
+        },
+        {
+          "id": "id_mngfywin_he9xg16",
+          "path": "assets/portfolio/sections/id_mngfuug5_g829up1/id_mngfywin_he9xg16.webp",
+          "metadata": {
+            "iso": 100,
+            "aperture": "f/11",
+            "shutterSpeed": "1/125s",
+            "focalLength": "45mm",
+            "lens": "Canon RF-S18-45mm F4.5-6.3 IS STM",
+            "camera": "Canon Canon EOS R100",
+            "dateTaken": "2025-11-22T12:27:27.000Z",
+            "width": 2560,
+            "height": 1440
+          }
+        },
+        {
+          "id": "id_mngg7qpf_nhosfl4",
+          "path": "assets/portfolio/sections/id_mngfuug5_g829up1/id_mngg7qpf_nhosfl4.webp",
+          "metadata": {
+            "iso": 200,
+            "aperture": "f/6.3",
+            "shutterSpeed": "1/640s",
+            "focalLength": "45mm",
+            "lens": "RF-S18-45mm F4.5-6.3 IS STM",
+            "camera": "Canon Canon EOS R100",
+            "dateTaken": "2026-03-29T07:35:06.000Z",
+            "width": 2560,
+            "height": 1707
+          }
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "id": "id_mngfz3dx_0jho5jl",
+      "name": "Landscape",
+      "caption": "Landscape photography captures natural or expansive scenes, emphasizing environment, atmosphere, and the beauty of light across wide spaces.",
+      "photos": [
+        {
+          "id": "id_mngfzztc_9qe6aui",
+          "path": "assets/portfolio/sections/id_mngfz3dx_0jho5jl/id_mngfzztc_9qe6aui.webp",
+          "metadata": {
+            "iso": 6400,
+            "aperture": null,
+            "shutterSpeed": "1/4000s",
+            "focalLength": null,
+            "lens": null,
+            "camera": "Canon Canon EOS R100",
+            "dateTaken": "2026-03-21T13:22:49.000Z",
+            "width": 1781,
+            "height": 2560
+          }
+        },
+        {
+          "id": "id_mngg09ld_pv6m1mb",
+          "path": "assets/portfolio/sections/id_mngfz3dx_0jho5jl/id_mngg09ld_pv6m1mb.webp",
+          "metadata": {
+            "iso": 100,
+            "aperture": "f/10",
+            "shutterSpeed": "1/640s",
+            "focalLength": "45mm",
+            "lens": "RF-S18-45mm F4.5-6.3 IS STM",
+            "camera": "Canon Canon EOS R100",
+            "dateTaken": "2025-11-22T13:15:10.000Z",
+            "width": 1707,
+            "height": 2560
+          }
+        },
+        {
+          "id": "id_mngg0kes_9hweax5",
+          "path": "assets/portfolio/sections/id_mngfz3dx_0jho5jl/id_mngg0kes_9hweax5.webp",
+          "metadata": {
+            "iso": 200,
+            "aperture": "f/32",
+            "shutterSpeed": "1/3s",
+            "focalLength": "45mm",
+            "lens": "RF-S18-45mm F4.5-6.3 IS STM",
+            "camera": "Canon Canon EOS R100",
+            "dateTaken": "2026-03-29T07:45:58.000Z",
+            "width": 2560,
+            "height": 1759
+          }
+        },
+        {
+          "id": "id_mngg0l12_gcigjnn",
+          "path": "assets/portfolio/sections/id_mngfz3dx_0jho5jl/id_mngg0l12_gcigjnn.webp",
+          "metadata": {
+            "iso": 200,
+            "aperture": null,
+            "shutterSpeed": "1/125s",
+            "focalLength": null,
+            "lens": null,
+            "camera": "Canon Canon EOS R100",
+            "dateTaken": "2026-03-29T11:55:10.000Z",
+            "width": 2093,
+            "height": 2560
+          }
+        },
+        {
+          "id": "id_mngg1bva_g773j23",
+          "path": "assets/portfolio/sections/id_mngfz3dx_0jho5jl/id_mngg1bva_g773j23.webp",
+          "metadata": {
+            "iso": 64,
+            "aperture": "f/1.8",
+            "shutterSpeed": "1/18000s",
+            "focalLength": "7mm",
+            "lens": "iPhone 16 Pro back triple camera 6.765mm f/1.78",
+            "camera": "Apple iPhone 16 Pro",
+            "dateTaken": "2024-11-16T14:51:28.000Z",
+            "width": 1920,
+            "height": 2560
+          }
+        },
+        {
+          "id": "id_mngg1cr4_q9f9p9a",
+          "path": "assets/portfolio/sections/id_mngfz3dx_0jho5jl/id_mngg1cr4_q9f9p9a.webp",
+          "metadata": {
+            "iso": 25,
+            "aperture": "f/1.8",
+            "shutterSpeed": "1/2800s",
+            "focalLength": "4mm",
+            "lens": "iPhone XS back dual camera 4.25mm f/1.8",
+            "camera": "Apple iPhone XS",
+            "dateTaken": "2024-08-17T12:25:47.000Z",
+            "width": 1920,
+            "height": 2560
+          }
+        },
+        {
+          "id": "id_mngg1djk_ifltf18",
+          "path": "assets/portfolio/sections/id_mngfz3dx_0jho5jl/id_mngg1djk_ifltf18.webp",
+          "metadata": {
+            "iso": 25,
+            "aperture": "f/1.8",
+            "shutterSpeed": "1/550s",
+            "focalLength": "4mm",
+            "lens": "iPhone XS back dual camera 4.25mm f/1.8",
+            "camera": "Apple iPhone XS",
+            "dateTaken": "2024-08-16T18:30:26.000Z",
+            "width": 1920,
+            "height": 2560
+          }
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "id": "id_mngg1vd6_xn0eakz",
+      "name": "Macro",
+      "caption": "Macro photography reveals the intricate details of small subjects, capturing textures and structures that are often invisible to the naked eye.",
+      "photos": [
+        {
+          "id": "id_mngg2f6k_0i606on",
+          "path": "assets/portfolio/sections/id_mngg1vd6_xn0eakz/id_mngg2f6k_0i606on.webp",
+          "metadata": {
+            "iso": 2500,
+            "aperture": null,
+            "shutterSpeed": "1/400s",
+            "focalLength": null,
+            "lens": null,
+            "camera": "Canon Canon EOS R100",
+            "dateTaken": "2026-03-22T15:36:00.000Z",
+            "width": 1707,
+            "height": 2560
+          }
+        },
+        {
+          "id": "id_mngg2fza_nulyvxo",
+          "path": "assets/portfolio/sections/id_mngg1vd6_xn0eakz/id_mngg2fza_nulyvxo.webp",
+          "metadata": {
+            "iso": 400,
+            "aperture": null,
+            "shutterSpeed": "1/320s",
+            "focalLength": null,
+            "lens": null,
+            "camera": "Canon Canon EOS R100",
+            "dateTaken": "2026-03-22T15:44:21.000Z",
+            "width": 1707,
+            "height": 2560
+          }
+        },
+        {
+          "id": "id_mngg2gq7_gnbh0ha",
+          "path": "assets/portfolio/sections/id_mngg1vd6_xn0eakz/id_mngg2gq7_gnbh0ha.webp",
+          "metadata": {
+            "iso": 400,
+            "aperture": null,
+            "shutterSpeed": "1/200s",
+            "focalLength": null,
+            "lens": null,
+            "camera": "Canon Canon EOS R100",
+            "dateTaken": "2026-03-22T15:48:33.000Z",
+            "width": 2560,
+            "height": 1707
+          }
+        },
+        {
+          "id": "id_mngg2hfx_95dtzst",
+          "path": "assets/portfolio/sections/id_mngg1vd6_xn0eakz/id_mngg2hfx_95dtzst.webp",
+          "metadata": {
+            "iso": 1250,
+            "aperture": null,
+            "shutterSpeed": "1/100s",
+            "focalLength": null,
+            "lens": null,
+            "camera": "Canon Canon EOS R100",
+            "dateTaken": "2026-03-22T15:56:50.000Z",
+            "width": 1707,
+            "height": 2560
+          }
+        },
+        {
+          "id": "id_mngg2i6a_natmg1u",
+          "path": "assets/portfolio/sections/id_mngg1vd6_xn0eakz/id_mngg2i6a_natmg1u.webp",
+          "metadata": {
+            "iso": 800,
+            "aperture": null,
+            "shutterSpeed": "1/80s",
+            "focalLength": null,
+            "lens": null,
+            "camera": "Canon Canon EOS R100",
+            "dateTaken": "2026-03-22T15:58:17.000Z",
+            "width": 1707,
+            "height": 2560
+          }
+        },
+        {
+          "id": "id_mngg2ix9_9rz5f42",
+          "path": "assets/portfolio/sections/id_mngg1vd6_xn0eakz/id_mngg2ix9_9rz5f42.webp",
+          "metadata": {
+            "iso": 100,
+            "aperture": null,
+            "shutterSpeed": "1/80s",
+            "focalLength": null,
+            "lens": null,
+            "camera": "Canon Canon EOS R100",
+            "dateTaken": "2026-03-22T15:59:01.000Z",
+            "width": 1707,
+            "height": 2560
+          }
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "id": "id_mq462yt5_2pa3ubs",
+      "name": "Cars",
+      "caption": "Power, elegance, and motion.",
+      "photos": [
+        {
+          "id": "id_mq468q6f_6pipxrc",
+          "path": "assets/portfolio/sections/id_mq462yt5_2pa3ubs/id_mq468q6f_6pipxrc.webp",
+          "metadata": {
+            "iso": 200,
+            "aperture": null,
+            "shutterSpeed": "1/160s",
+            "focalLength": null,
+            "lens": null,
+            "camera": "Canon Canon EOS R100",
+            "dateTaken": "2026-05-30T12:47:49.000Z",
+            "width": 2276,
+            "height": 2560
+          }
+        },
+        {
+          "id": "id_mq468qyj_yj4hrmj",
+          "path": "assets/portfolio/sections/id_mq462yt5_2pa3ubs/id_mq468qyj_yj4hrmj.webp",
+          "metadata": {
+            "iso": 200,
+            "aperture": null,
+            "shutterSpeed": "1/125s",
+            "focalLength": null,
+            "lens": null,
+            "camera": "Canon Canon EOS R100",
+            "dateTaken": "2026-05-30T12:30:45.000Z",
+            "width": 2560,
+            "height": 1280
+          }
+        },
+        {
+          "id": "id_mq468rhz_nptsjxe",
+          "path": "assets/portfolio/sections/id_mq462yt5_2pa3ubs/id_mq468rhz_nptsjxe.webp",
+          "metadata": {
+            "iso": 200,
+            "aperture": null,
+            "shutterSpeed": "1/160s",
+            "focalLength": null,
+            "lens": null,
+            "camera": "Canon Canon EOS R100",
+            "dateTaken": "2026-05-30T11:04:41.000Z",
+            "width": 2560,
+            "height": 2099
+          }
+        },
+        {
+          "id": "id_mq468s79_2q003zm",
+          "path": "assets/portfolio/sections/id_mq462yt5_2pa3ubs/id_mq468s79_2q003zm.webp",
+          "metadata": {
+            "iso": 200,
+            "aperture": null,
+            "shutterSpeed": "1/160s",
+            "focalLength": null,
+            "lens": null,
+            "camera": "Canon Canon EOS R100",
+            "dateTaken": "2026-05-30T11:04:15.000Z",
+            "width": 2560,
+            "height": 2212
+          }
+        },
+        {
+          "id": "id_mq468szn_evw9p62",
+          "path": "assets/portfolio/sections/id_mq462yt5_2pa3ubs/id_mq468szn_evw9p62.webp",
+          "metadata": {
+            "iso": 200,
+            "aperture": null,
+            "shutterSpeed": "1/80s",
+            "focalLength": null,
+            "lens": null,
+            "camera": "Canon Canon EOS R100",
+            "dateTaken": "2026-05-30T09:46:35.000Z",
+            "width": 2560,
+            "height": 1707
+          }
+        },
+        {
+          "id": "id_mq468tpy_ckqbsql",
+          "path": "assets/portfolio/sections/id_mq462yt5_2pa3ubs/id_mq468tpy_ckqbsql.webp",
+          "metadata": {
+            "iso": 200,
+            "aperture": null,
+            "shutterSpeed": "1/80s",
+            "focalLength": null,
+            "lens": null,
+            "camera": "Canon Canon EOS R100",
+            "dateTaken": "2026-05-30T09:42:04.000Z",
+            "width": 2560,
+            "height": 1707
+          }
+        },
+        {
+          "id": "id_mq468ufu_y2yd85u",
+          "path": "assets/portfolio/sections/id_mq462yt5_2pa3ubs/id_mq468ufu_y2yd85u.webp",
+          "metadata": {
+            "iso": 200,
+            "aperture": null,
+            "shutterSpeed": "1/80s",
+            "focalLength": null,
+            "lens": null,
+            "camera": "Canon Canon EOS R100",
+            "dateTaken": "2026-05-30T09:41:59.000Z",
+            "width": 2560,
+            "height": 1707
+          }
+        },
+        {
+          "id": "id_mq468v5x_0i62aen",
+          "path": "assets/portfolio/sections/id_mq462yt5_2pa3ubs/id_mq468v5x_0i62aen.webp",
+          "metadata": {
+            "iso": 200,
+            "aperture": null,
+            "shutterSpeed": "1/320s",
+            "focalLength": null,
+            "lens": null,
+            "camera": "Canon Canon EOS R100",
+            "dateTaken": "2026-05-30T09:34:04.000Z",
+            "width": 2560,
+            "height": 1677
+          }
+        },
+        {
+          "id": "id_mq468vvo_llq6wos",
+          "path": "assets/portfolio/sections/id_mq462yt5_2pa3ubs/id_mq468vvo_llq6wos.webp",
+          "metadata": {
+            "iso": 200,
+            "aperture": null,
+            "shutterSpeed": "1/320s",
+            "focalLength": null,
+            "lens": null,
+            "camera": "Canon Canon EOS R100",
+            "dateTaken": "2026-05-30T08:29:08.000Z",
+            "width": 2560,
+            "height": 1232
+          }
+        },
+        {
+          "id": "id_mq468wbq_g9g4jqp",
+          "path": "assets/portfolio/sections/id_mq462yt5_2pa3ubs/id_mq468wbq_g9g4jqp.webp",
+          "metadata": {
+            "iso": 200,
+            "aperture": "f/5.3",
+            "shutterSpeed": "1/1000s",
+            "focalLength": "180mm",
+            "lens": null,
+            "camera": "Nikon D3S",
+            "dateTaken": "2026-06-07T17:19:11.000Z",
+            "width": 2560,
+            "height": 1309
+          }
+        },
+        {
+          "id": "id_mq468wrg_guu7k2c",
+          "path": "assets/portfolio/sections/id_mq462yt5_2pa3ubs/id_mq468wrg_guu7k2c.webp",
+          "metadata": {
+            "iso": 200,
+            "aperture": "f/5",
+            "shutterSpeed": "1/1000s",
+            "focalLength": "175mm",
+            "lens": null,
+            "camera": "Nikon D3S",
+            "dateTaken": "2026-06-07T17:19:12.000Z",
+            "width": 2560,
+            "height": 1204
+          }
+        }
+      ],
+      "subsections": []
+    }
+  ]
+}
