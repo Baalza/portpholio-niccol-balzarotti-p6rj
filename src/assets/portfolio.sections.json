@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-06-07T19:25:55.507Z",
+    "updatedAt": "2026-06-07T19:30:31.742Z",
     "schemaVersion": 1
   },
   "sections": [
@@ -750,21 +750,6 @@
             "camera": "Canon Canon EOS R100",
             "dateTaken": "2026-03-21T11:16:25.000Z",
             "width": 2353,
-            "height": 2560
-          }
-        },
-        {
-          "id": "id_mngfvv1p_4ylcbw2",
-          "path": "assets/portfolio/sections/id_mngfuug5_g829up1/id_mngfvv1p_4ylcbw2.webp",
-          "metadata": {
-            "iso": 800,
-            "aperture": "f/6.3",
-            "shutterSpeed": "1/1000s",
-            "focalLength": "45mm",
-            "lens": "RF-S18-45mm F4.5-6.3 IS STM",
-            "camera": "Canon Canon EOS R100",
-            "dateTaken": "2026-03-21T11:20:49.000Z",
-            "width": 2521,
             "height": 2560
           }
         },
